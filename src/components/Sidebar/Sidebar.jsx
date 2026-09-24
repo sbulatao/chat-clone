@@ -1,4 +1,7 @@
-import React from 'react'
+import React from 'react';
+import './Sidebar.css';
+// import gptLogo from '../../assets/chatgpt.svg';
+import gptLogo from '../../assets/openai-brands-solid-full.svg';
 
 export default function Sidebar() {
   return (
@@ -6,7 +9,7 @@ export default function Sidebar() {
 
         <div className="upperSide">
             <div className="upperSideTop">
-                <img src="" alt="" className="logo" />
+                <img src={gptLogo} alt="gpt logo" className="logo" />
                 <span className='brand'>ChatGPT</span> 
             </div>
 
