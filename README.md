@@ -1,3 +1,67 @@
+# Chat Clone
+
+A ChatGPT-style conversational chat interface built with React.
+
+> **Status:** Work in progress — the sidebar layout is in place and the chat
+> interface is under active development.
+
+## Planned Features
+
+- Sidebar with conversation history, search, and navigation
+- Chat thread view with message bubbles and streaming-style responses
+- Message actions (copy, regenerate, bookmark)
+- Responsive layout for desktop and mobile
+
+## Tech Stack
+
+- React 19 (Create React App)
+- CSS modules / component-scoped styling
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v18 or newer)
+
+### Installation
+
+```bash
+git clone https://github.com/sbulatao/chat-clone.git
+cd chat-clone
+npm install
+```
+
+### Run locally
+
+```bash
+npm start
+```
+
+Then open http://localhost:3000 in your browser.
+
+## Project Structure
+
+```
+src/
+├── components/Sidebar/  # Sidebar layout and navigation
+├── assets/              # Icons
+├── App.js               # Entry component
+└── index.js             # Entry point
+```
+
+## Roadmap
+
+- [x] Sidebar layout
+- [ ] Chat thread / message view
+- [ ] Message input with send actions
+- [ ] Conversation state management
+- [ ] Deploy live demo
+
+## Screenshots :: TO-DOs
+
+_Add screenshots as the UI comes together._
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
